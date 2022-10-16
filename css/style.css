@@ -66,3 +66,46 @@ img {
   text-transform: uppercase;
   background-color: transparent;
 }
+
+/* Hero */
+.hero {
+  background-color: #f1f1f2;
+}
+.hero-container {
+  display: flex;
+}
+.content {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-wrap {
+  width: 433px;
+}
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  line-height: 69px;
+  margin-bottom: 36px;
+}
+
+.hero-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 140.62%;
+  margin-bottom: 60px;
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f7941e;
+  border-radius: 5px;
+  padding: 19px 25px;
+  border: none;
+}
