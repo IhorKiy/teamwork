@@ -180,3 +180,34 @@ img {
 .occasions-item-title {
   margin-bottom: 74px;
 }
+
+/* READY */
+.ready {
+  background-color: #F7941E;
+  padding-top: 81px;
+  padding-bottom: 69px;
+}
+
+.third-container {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.ready-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ready-text {}
+
+.ready-subtext {}
+
+.ready-list {
+  display: flex;
+  gap: 16px;
+}
+
+.ready-list-item {
+
+}
