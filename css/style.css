@@ -211,3 +211,36 @@ img {
 .ready-list-item {
 
 }
+
+/* Blogs */
+
+.blogs {
+  padding-top: 88px;
+  padding-bottom: 40px;
+  background-color: #FFFFFF;
+}
+.blogs-title {
+  text-align: center;
+  margin-bottom: 23px;
+}
+.blogs-text {
+  text-align: center;
+  margin-bottom: 71px;
+}
+.blogs-article {
+  display: flex;
+  background-color: #231F20;
+}
+.blogs-article-wrap{
+  padding-top: 63px;
+  padding-left: 78px;
+}
+.blogs-article-text {
+  margin-bottom: 27px;
+}
+.blogs-article-title {
+  margin-bottom: 60px;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  max-width: 492px;
+}
