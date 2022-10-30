@@ -51,7 +51,8 @@ img {
   display: flex;
 }
 
-.header-nav-list-item {}
+.header-nav-list-item {
+}
 
 .header-nav-list-item:not(:first-child) {
   margin-left: 31px;
@@ -129,13 +130,17 @@ img {
   background-color: #f1f1f2;
 }
 
-.container {}
+.container {
+}
 
-.about-container {}
+.about-container {
+}
 
-.content {}
+.content {
+}
 
-.content-wrap {}
+.content-wrap {
+}
 
 .about-title {
   margin-bottom: 23px;
@@ -150,7 +155,7 @@ img {
 .occasions {
   padding-top: 96px;
   padding-bottom: 137px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .container-second {
@@ -183,7 +188,7 @@ img {
 
 /* READY */
 .ready {
-  background-color: #F7941E;
+  background-color: #f7941e;
   padding-top: 81px;
   padding-bottom: 69px;
 }
@@ -199,9 +204,11 @@ img {
   align-items: center;
 }
 
-.ready-text {}
+.ready-text {
+}
 
-.ready-subtext {}
+.ready-subtext {
+}
 
 .ready-list {
   display: flex;
@@ -209,7 +216,6 @@ img {
 }
 
 .ready-list-item {
-
 }
 
 /* Blogs */
@@ -217,7 +223,7 @@ img {
 .blogs {
   padding-top: 88px;
   padding-bottom: 40px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .blogs-title {
   text-align: center;
@@ -229,9 +235,9 @@ img {
 }
 .blogs-article {
   display: flex;
-  background-color: #231F20;
+  background-color: #231f20;
 }
-.blogs-article-wrap{
+.blogs-article-wrap {
   padding-top: 63px;
   padding-left: 78px;
 }
@@ -241,6 +247,45 @@ img {
 .blogs-article-title {
   margin-bottom: 60px;
   font-size: 48px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   max-width: 492px;
+}
+
+/* !!! footer */
+
+.footer {
+  background-color: #fafafa;
+  padding-top: 106px;
+  padding-bottom: 35px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 56px;
+}
+.footer-nav-list {
+  display: flex;
+  gap: 80px;
+}
+.footer-logo {
+  margin-right: 181px;
+  margin-left: 181px;
+  padding-bottom: 43px;
+}
+
+.footer-social-list{
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	margin-bottom: 74px;
+}
+
+.footer-copy-terms{
+	text-align: center;
+}
+.footer-copy {
+	margin-right: 14px;
+}
+.footer-terms {
 }
