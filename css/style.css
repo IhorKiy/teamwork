@@ -109,3 +109,26 @@ img {
   padding: 19px 25px;
   border: none;
 }
+
+/* !!! about */
+.about-container {
+  display: flex;
+}
+.about {
+  background-color: #f1f1f2;
+}
+
+.container {
+}
+.about-container {
+}
+.content {
+}
+.content-wrap {
+}
+.about-title {
+  margin-bottom: 23px;
+}
+.about-text {
+  margin-bottom: 35px;
+}
